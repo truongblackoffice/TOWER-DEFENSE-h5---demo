@@ -1,0 +1,52 @@
+[
+    {
+        "id": "soldier",
+        "name": "Soldier",
+        "speed": 60,
+        "hp": 20,
+        "reward": 5,
+        "color": "#00ff00",
+        "radius": 16,
+        "texture": "enemy_soldier"
+    },
+    {
+        "id": "tank",
+        "name": "Tank",
+        "speed": 35,
+        "hp": 80,
+        "reward": 15,
+        "color": "#008800",
+        "radius": 20,
+        "texture": "enemy_soldier"
+    },
+    {
+        "id": "scout",
+        "name": "Scout",
+        "speed": 110,
+        "hp": 10,
+        "reward": 8,
+        "color": "#ffff00",
+        "radius": 12,
+        "texture": "enemy_soldier"
+    },
+    {
+        "id": "heavy_tank",
+        "name": "Heavy Tank",
+        "speed": 25,
+        "hp": 250,
+        "reward": 40,
+        "color": "#004400",
+        "radius": 24,
+        "texture": "enemy_tank"
+    },
+    {
+        "id": "boss_mech",
+        "name": "Boss Mech",
+        "speed": 15,
+        "hp": 2000,
+        "reward": 500,
+        "color": "#550000",
+        "radius": 32,
+        "texture": "enemy_tank"
+    }
+]

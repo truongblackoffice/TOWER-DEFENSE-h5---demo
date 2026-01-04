@@ -1,0 +1,73 @@
+[
+    {
+        "id": "basic",
+        "name": "Archer",
+        "description": "Standard single target",
+        "cost": 50,
+        "range": 120,
+        "damage": 10,
+        "fireRate": 1.5,
+        "projectileSpeed": 400,
+        "color": "#4488ff",
+        "width": 32,
+        "height": 32,
+        "texture": "tower_blue"
+    },
+    {
+        "id": "minigun",
+        "name": "Minigun",
+        "description": "Fast fire, low damage",
+        "cost": 150,
+        "range": 100,
+        "damage": 3,
+        "fireRate": 5.0,
+        "projectileSpeed": 600,
+        "color": "#ffaa00",
+        "width": 32,
+        "height": 32,
+        "texture": "tower_minigun"
+    },
+    {
+        "id": "rocket",
+        "name": "Rocket",
+        "description": "Splash damage AA",
+        "cost": 250,
+        "range": 180,
+        "damage": 20,
+        "fireRate": 0.5,
+        "projectileSpeed": 250,
+        "splashRadius": 60,
+        "color": "#ff4444",
+        "width": 32,
+        "height": 32,
+        "texture": "tower_rocket"
+    },
+    {
+        "id": "sniper",
+        "name": "Sniper",
+        "description": "Long range, high damage",
+        "cost": 200,
+        "range": 300,
+        "damage": 50,
+        "fireRate": 0.4,
+        "projectileSpeed": 900,
+        "color": "#8844ff",
+        "width": 32,
+        "height": 32,
+        "texture": "tower_purple"
+    },
+    {
+        "id": "cannon",
+        "name": "Cannon",
+        "description": "Slow, heavy damage",
+        "cost": 120,
+        "range": 100,
+        "damage": 30,
+        "fireRate": 0.8,
+        "projectileSpeed": 300,
+        "color": "#ff0000",
+        "width": 32,
+        "height": 32,
+        "texture": "tower_red"
+    }
+]

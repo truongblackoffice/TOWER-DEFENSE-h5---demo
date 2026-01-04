@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tower Defense 2D</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="main-layout" class="hidden">
+        <!-- Top Bar for Actions -->
+        <div id="top-bar">
+            <h1 class="mini-title">TD 2D</h1>
+            <div id="system-actions">
+                <div class="speed-controls" style="margin-right: 20px; display: flex; gap: 5px;">
+                    <button class="speed-btn active" data-speed="1">x1</button>
+                    <button class="speed-btn" data-speed="2">x2</button>
+                    <button class="speed-btn" data-speed="4">x4</button>
+                </div>
+                <label
+                    style="color:white; margin-right: 15px; display: flex; align-items: center; gap: 5px; cursor: pointer;">
+                    <input type="checkbox" id="chk-auto-wave"> Auto Next Wave
+                </label>
+                <button id="btn-start-wave" class="action-btn">⚔️ Start Wave</button>
+                <button id="btn-back-menu" class="action-btn secondary">Quit</button>
+            </div>
+        </div>
+
+        <!-- Main Content Row -->
+        <div id="game-row">
+            <!-- 1. Game Canvas -->
+            <div id="game-wrapper">
+                <canvas id="game-canvas"></canvas>
+                <div id="ui-overlay">
+                    <div id="game-over-screen" class="hidden">
+                        <h1>GAME OVER</h1>
+                        <button id="btn-restart">Main Menu</button>
+                        <button id="btn-continue" class="hidden">Continue (-50% Gold)</button>
+                    </div>
+                    <div id="victory-screen" class="hidden">
+                        <h1>VICTORY!</h1>
+                        <button id="btn-next-level">Next Level</button>
+                        <button id="btn-menu-victory">Main Menu</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. Build Tower Column -->
+            <div id="build-column">
+                <h3>Build Tower</h3>
+                <div id="build-menu">
+                    <!-- Buttons injected here -->
+                </div>
+                <p class="small-tip">Select tower, click map.</p>
+            </div>
+
+            <!-- 3. Stats Column -->
+            <!-- 3. Stats Column -->
+            <div id="stats-column">
+                <h2>Kingdom Stats</h2>
+                <div class="stat-row">❤️ Lives: <span id="val-hp">20</span></div>
+                <div class="stat-row">💰 Gold: <span id="val-gold">100</span></div>
+                <div class="stat-row">⚔️ Wave: <span id="val-wave">1</span></div>
+                <div class="stat-row">🏆 Level: <span id="val-level">1</span></div>
+                <div class="stat-row">⚡ FPS: <span id="val-fps">60</span></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- Main Menu Screen -->
+    <div id="menu-screen" class="screen">
+        <div class="menu-content">
+            <h1 class="game-title">TOWER DEFENSE 2D</h1>
+            <button id="btn-new-game" class="menu-btn">New Game</button>
+            <button id="btn-load-game" class="menu-btn" disabled>Continue</button>
+            <div class="difficulty-select">
+                <span>Difficulty: </span>
+                <select id="select-difficulty">
+                    <option value="easy">Easy</option>
+                    <option value="normal" selected>Normal</option>
+                    <option value="hard">Hard</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <!-- Level Select Screen -->
+    <div id="level-select-screen" class="screen hidden">
+        <h1>Select Level</h1>
+        <div id="level-grid">
+            <!-- 30 Levels injected here -->
+        </div>
+        <button id="btn-back-levels" class="menu-btn">Back</button>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>

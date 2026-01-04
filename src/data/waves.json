@@ -1,0 +1,157 @@
+[
+    {
+        "id": 1,
+        "delayBefore": 3,
+        "segments": [
+            {
+                "enemyId": "soldier",
+                "count": 5,
+                "interval": 1.5
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "delayBefore": 5,
+        "segments": [
+            {
+                "enemyId": "soldier",
+                "count": 10,
+                "interval": 1.0
+            },
+            {
+                "enemyId": "scout",
+                "count": 3,
+                "interval": 2.0
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "delayBefore": 5,
+        "segments": [
+            {
+                "enemyId": "tank",
+                "count": 3,
+                "interval": 3.0
+            },
+            {
+                "enemyId": "soldier",
+                "count": 15,
+                "interval": 0.8
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "delayBefore": 6,
+        "segments": [
+            {
+                "enemyId": "scout",
+                "count": 15,
+                "interval": 0.5
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "delayBefore": 10,
+        "segments": [
+            {
+                "enemyId": "tank",
+                "count": 5,
+                "interval": 2.5
+            },
+            {
+                "enemyId": "scout",
+                "count": 10,
+                "interval": 1.0
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "delayBefore": 5,
+        "segments": [
+            {
+                "enemyId": "soldier",
+                "count": 30,
+                "interval": 0.5
+            },
+            {
+                "enemyId": "tank",
+                "count": 2,
+                "interval": 5.0
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "delayBefore": 8,
+        "segments": [
+            {
+                "enemyId": "tank",
+                "count": 10,
+                "interval": 1.5
+            },
+            {
+                "enemyId": "scout",
+                "count": 5,
+                "interval": 0.8
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "delayBefore": 5,
+        "segments": [
+            {
+                "enemyId": "scout",
+                "count": 20,
+                "interval": 0.4
+            },
+            {
+                "enemyId": "soldier",
+                "count": 20,
+                "interval": 0.4
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "delayBefore": 10,
+        "segments": [
+            {
+                "enemyId": "tank",
+                "count": 15,
+                "interval": 1.2
+            },
+            {
+                "enemyId": "scout",
+                "count": 10,
+                "interval": 1.0
+            },
+            {
+                "enemyId": "soldier",
+                "count": 20,
+                "interval": 0.6
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "delayBefore": 15,
+        "segments": [
+            {
+                "enemyId": "tank",
+                "count": 30,
+                "interval": 1.0
+            },
+            {
+                "enemyId": "scout",
+                "count": 30,
+                "interval": 0.2
+            }
+        ]
+    }
+]
